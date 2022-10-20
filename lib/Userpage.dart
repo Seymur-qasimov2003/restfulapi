@@ -37,7 +37,7 @@ class _UserPageState extends State<UserPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("User Page"),
+        title: const Text("User Pag"),
       ),
       body: isLoading == true
           ? ListView.builder(
